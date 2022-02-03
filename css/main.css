@@ -11,3 +11,22 @@ html {
 }
 
 
+/* HEADER AND NAVIGATION */
+
+header {
+    display: flex;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+}
+
+#title {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
