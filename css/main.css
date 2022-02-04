@@ -10,23 +10,41 @@ html {
     border: 1px solid red;
 }
 
-
+body {
+    width: 80%;
+    margin: auto;
+}
 /* HEADER AND NAVIGATION */
 
 header {
     display: flex;
+    height: 75px;
 }
 
 nav {
     flex-grow: 1;
     display: flex;
+    justify-content: flex-end;
 }
 
 #title {
     flex-grow: 1;
+    margin-left: 20px;
+    align-self: center;
 }
+
 
 nav ul {
     display: flex;
-    justify-content: end;
+    justify-content: right;
+    gap: 20px;
+    margin-right: 20px;
+    align-items: center;
 }
+
+nav li {
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
