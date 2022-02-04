@@ -15,6 +15,12 @@ body {
     margin: auto;
     font-family: 'Roboto Condensed', Arial, sans-serif;
 }
+
+.section-title {
+    line-height: 3;
+    font-size: 30px;
+}
+
 /* HEADER AND NAVIGATION */
 
 header {
@@ -72,4 +78,93 @@ nav li {
 
 #hero p {
     font-size: 30px;
+}
+
+/* SERVICES SECTION */
+
+#services-section {
+    text-align: center;
+}
+
+#services-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0px;
+    min-height: 50vh;
+    align-items: center;
+}
+
+.service-card {
+    min-width: 200px;
+    flex-basis: 300px;
+}
+
+.service-card span.material-icons {
+    font-size: 100px;
+}
+
+.service-card h4 {
+    font-size: 30px;
+    line-height: 1.8;
+}
+
+.service-card p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* TEAM SECTION */
+
+#team-section {
+    text-align: center;
+
+}
+
+#team-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0px;
+    min-height: 50vh;
+    align-items: center;
+}
+
+.team-card {
+    min-width: 150px;
+    flex-basis: 250px;
+}
+
+.team-card img {
+    width: 100px;
+    height: auto;
+}
+
+.team-card h4 {
+    font-size: 30px;
+    line-height: 1.8;
+}
+
+.team-card p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* FOOTER */
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+footer h4 {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+footer p {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 20px;
 }
