@@ -13,6 +13,7 @@ html {
 body {
     width: 80%;
     margin: auto;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 /* HEADER AND NAVIGATION */
 
@@ -48,3 +49,27 @@ nav li {
     text-align: center;
 }
 
+/* HERO SECTION */
+
+#hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#hero div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 75px;
+    line-height: 1.75;
+    text-transform: uppercase;
+}
+
+#hero p {
+    font-size: 30px;
+}
