@@ -17,17 +17,21 @@ body {
 }
 
 .section-title {
-    line-height: 3;
-    font-size: 40px;
+    line-height: 2;
+    padding: 20px 0px;
+    font-size: 45px;
     background-color: #74c69d;
     color: aliceblue;
+    font-family: 'Architects Daughter';
+    letter-spacing: 8px;
+    text-transform: uppercase;
 }
 
 /* HEADER AND NAVIGATION */
 
 header {
     display: flex;
-    height: 75px;
+    height: 10vh;
     background-color: #74c69d;
 }
 
@@ -39,7 +43,7 @@ nav {
 
 #title {
     flex-grow: 1;
-    margin-left: 20px;
+    margin-left: 2vw;
     align-self: center;
     color: aliceblue;
     text-transform: uppercase;
@@ -53,7 +57,7 @@ nav ul {
     display: flex;
     justify-content: right;
     gap: 20px;
-    margin-right: 20px;
+    margin-right: 2vw;
     align-items: center;
 }
 
